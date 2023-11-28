@@ -4,6 +4,10 @@ using Dalamud.Plugin;
 using System.IO;
 using Dalamud.Interface.Windowing;
 using Dalamud.Plugin.Services;
+using afkTimer.data;
+using afkTimer.Logic;
+
+
 using afkTimer.Windows;
 
 namespace afkTimer
@@ -64,6 +68,13 @@ namespace afkTimer
         {
             // in response to the slash command, just display our main ui
             MainWindow.IsOpen = true;
+            StateStopwatch stateStopwatch = new StateStopwatch();
+            
+            stateStopwatch.Start();
+
+            stateStopwatch.Stop();
+            
+            TimeSpan elapsedTime = stateStopwatch.ElapsedTime;
         }
 
         private void DrawUI()
