@@ -1,7 +1,7 @@
 {
   "Author": "jeez jee",
   "Name": "AFK Timer",
-  "Punchline": "Makes wondering how much time you've spent AFKing a thing of the past.",
+  "Punchline": "Makes wondering how much time you've spent AFKing a thing of the past. TEST",
   "Description": "Accurately tracks how long you've been AFK in the game",
   "InternalName": "afkTimer",
   "ApplicableVersion": "any",
