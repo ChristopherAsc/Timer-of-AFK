@@ -1,0 +1,13 @@
+{
+  "Author": "jeez jee",
+  "Name": "AFK Timer",
+  "Punchline": "Makes wondering how much time you've spent AFKing a thing of the past.",
+  "Description": "Accurately tracks how long you've been AFK in the game",
+  "InternalName": "afkTimer",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "sample",
+    "plugin",
+    "goats"
+  ]
+}
